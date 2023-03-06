@@ -1,0 +1,162 @@
+# //  Questa Sim-64
+# //  Version 10.7c linux_x86_64 Aug 17 2018
+# //
+# //  Copyright 1991-2018 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 17 2018
+# Start time: 01:54:51 on Mar 06,2023
+# vlog -reportprogress 300 top.sv 
+# ** Note: (vlog-2286) top.sv(1): Using implicit +incdir+/home/particle/edabundle/questa/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src from import uvm_pkg
+# -- Compiling interface add_if
+# -- Compiling module add
+# -- Compiling package my_seq_library
+# -- Importing package mtiUvm.uvm_pkg (uvm-1.1d Built-in)
+# ** Warning: add_gen.sv(18): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# -- Compiling package my_pkg
+# -- Importing package my_seq_library
+# -- Compiling module add_tb
+# -- Importing package my_pkg
+# 
+# Top level modules:
+# 	add_tb
+# End time: 01:54:52 on Mar 06,2023, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 1
+# vsim add_tb 
+# Start time: 01:54:52 on Mar 06,2023
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading sv_std.std
+# Loading work.add_if(fast)
+# Loading mtiUvm.uvm_pkg
+# Loading work.my_seq_library(fast)
+# Loading work.my_pkg(fast)
+# Loading work.add_tb(fast)
+# Loading mtiUvm.questa_uvm_pkg(fast)
+# Loading /home/particle/edabundle/questa/questasim/uvm-1.1d/linux_x86_64/uvm_dpi.so
+# ----------------------------------------------------------------
+# UVM-1.1d
+# (C) 2007-2013 Mentor Graphics Corporation
+# (C) 2007-2013 Cadence Design Systems, Inc.
+# (C) 2006-2013 Synopsys, Inc.
+# (C) 2011-2013 Cypress Semiconductor Corp.
+# ----------------------------------------------------------------
+# 
+#   ***********       IMPORTANT RELEASE NOTES         ************
+# 
+#   You are using a version of the UVM library that has been compiled
+#   with `UVM_NO_DEPRECATED undefined.
+#   See http://www.eda.org/svdb/view.php?id=3313 for more details.
+# 
+#   You are using a version of the UVM library that has been compiled
+#   with `UVM_OBJECT_MUST_HAVE_CONSTRUCTOR undefined.
+#   See http://www.eda.org/svdb/view.php?id=3770 for more details.
+# 
+#       (Specify +UVM_NO_RELNOTES to turn off this notice)
+# 
+# UVM_INFO verilog_src/questa_uvm_pkg-1.2/src/questa_uvm_pkg.sv(215) @ 0: reporter [Questa UVM] QUESTA_UVM-1.2.3
+# UVM_INFO verilog_src/questa_uvm_pkg-1.2/src/questa_uvm_pkg.sv(216) @ 0: reporter [Questa UVM]  questa_uvm::init(+struct)
+# UVM_INFO @ 0: reporter [RNTST] Running test test...
+# UVM_INFO add_gen.sv(16) @ 0: uvm_test_top.en.agt.seqr@@gen [GEN] [PACKET] : 1 of 10
+# UVM_INFO add_gen.sv(19) @ 0: uvm_test_top.en.agt.seqr@@gen [GEN] DATA SENT TO DRIVER a : 11, b : 12
+# UVM_INFO add_drv.sv(30) @ 0: uvm_test_top.en.agt.drv [DRV] TRIGGERING DUT a: 11, b: 12
+# UVM_INFO add_gen.sv(16) @ 0: uvm_test_top.en.agt.seqr@@gen [GEN] [PACKET] : 2 of 10
+# UVM_INFO add_mon.sv(26) @ 10: uvm_test_top.en.agt.mon [MON] DATA SENT TO SCB: a: 11, b: 12 and y: 23
+# UVM_INFO add_scb.sv(19) @ 10: uvm_test_top.en.scb [SCB] DATA RECEIVED FROM MONITOR: a: 11, b: 12, and y: 23
+# UVM_INFO add_scb.sv(22) @ 10: uvm_test_top.en.scb [SCB] TEST PASSED
+# UVM_INFO add_gen.sv(19) @ 10: uvm_test_top.en.agt.seqr@@gen [GEN] DATA SENT TO DRIVER a : 9, b : 10
+# UVM_INFO add_drv.sv(30) @ 10: uvm_test_top.en.agt.drv [DRV] TRIGGERING DUT a: 9, b: 10
+# UVM_INFO add_gen.sv(16) @ 10: uvm_test_top.en.agt.seqr@@gen [GEN] [PACKET] : 3 of 10
+# UVM_INFO add_mon.sv(26) @ 20: uvm_test_top.en.agt.mon [MON] DATA SENT TO SCB: a: 9, b: 10 and y: 19
+# UVM_INFO add_scb.sv(19) @ 20: uvm_test_top.en.scb [SCB] DATA RECEIVED FROM MONITOR: a: 9, b: 10, and y: 19
+# UVM_INFO add_scb.sv(22) @ 20: uvm_test_top.en.scb [SCB] TEST PASSED
+# UVM_INFO add_gen.sv(19) @ 20: uvm_test_top.en.agt.seqr@@gen [GEN] DATA SENT TO DRIVER a : 6, b : 15
+# UVM_INFO add_drv.sv(30) @ 20: uvm_test_top.en.agt.drv [DRV] TRIGGERING DUT a: 6, b: 15
+# UVM_INFO add_gen.sv(16) @ 20: uvm_test_top.en.agt.seqr@@gen [GEN] [PACKET] : 4 of 10
+# UVM_INFO add_mon.sv(26) @ 30: uvm_test_top.en.agt.mon [MON] DATA SENT TO SCB: a: 6, b: 15 and y: 21
+# UVM_INFO add_scb.sv(19) @ 30: uvm_test_top.en.scb [SCB] DATA RECEIVED FROM MONITOR: a: 6, b: 15, and y: 21
+# UVM_INFO add_scb.sv(22) @ 30: uvm_test_top.en.scb [SCB] TEST PASSED
+# UVM_INFO add_gen.sv(19) @ 30: uvm_test_top.en.agt.seqr@@gen [GEN] DATA SENT TO DRIVER a : 6, b : 2
+# UVM_INFO add_drv.sv(30) @ 30: uvm_test_top.en.agt.drv [DRV] TRIGGERING DUT a: 6, b: 2
+# UVM_INFO add_gen.sv(16) @ 30: uvm_test_top.en.agt.seqr@@gen [GEN] [PACKET] : 5 of 10
+# UVM_INFO add_mon.sv(26) @ 40: uvm_test_top.en.agt.mon [MON] DATA SENT TO SCB: a: 6, b: 2 and y: 8
+# UVM_INFO add_scb.sv(19) @ 40: uvm_test_top.en.scb [SCB] DATA RECEIVED FROM MONITOR: a: 6, b: 2, and y: 8
+# UVM_INFO add_scb.sv(22) @ 40: uvm_test_top.en.scb [SCB] TEST PASSED
+# UVM_INFO add_gen.sv(19) @ 40: uvm_test_top.en.agt.seqr@@gen [GEN] DATA SENT TO DRIVER a : 13, b : 10
+# UVM_INFO add_drv.sv(30) @ 40: uvm_test_top.en.agt.drv [DRV] TRIGGERING DUT a: 13, b: 10
+# UVM_INFO add_gen.sv(16) @ 40: uvm_test_top.en.agt.seqr@@gen [GEN] [PACKET] : 6 of 10
+# UVM_INFO add_mon.sv(26) @ 50: uvm_test_top.en.agt.mon [MON] DATA SENT TO SCB: a: 13, b: 10 and y: 23
+# UVM_INFO add_scb.sv(19) @ 50: uvm_test_top.en.scb [SCB] DATA RECEIVED FROM MONITOR: a: 13, b: 10, and y: 23
+# UVM_INFO add_scb.sv(22) @ 50: uvm_test_top.en.scb [SCB] TEST PASSED
+# UVM_INFO add_gen.sv(19) @ 50: uvm_test_top.en.agt.seqr@@gen [GEN] DATA SENT TO DRIVER a : 14, b : 0
+# UVM_INFO add_drv.sv(30) @ 50: uvm_test_top.en.agt.drv [DRV] TRIGGERING DUT a: 14, b: 0
+# UVM_INFO add_gen.sv(16) @ 50: uvm_test_top.en.agt.seqr@@gen [GEN] [PACKET] : 7 of 10
+# UVM_INFO add_mon.sv(26) @ 60: uvm_test_top.en.agt.mon [MON] DATA SENT TO SCB: a: 14, b: 0 and y: 14
+# UVM_INFO add_scb.sv(19) @ 60: uvm_test_top.en.scb [SCB] DATA RECEIVED FROM MONITOR: a: 14, b: 0, and y: 14
+# UVM_INFO add_scb.sv(22) @ 60: uvm_test_top.en.scb [SCB] TEST PASSED
+# UVM_INFO add_gen.sv(19) @ 60: uvm_test_top.en.agt.seqr@@gen [GEN] DATA SENT TO DRIVER a : 10, b : 15
+# UVM_INFO add_drv.sv(30) @ 60: uvm_test_top.en.agt.drv [DRV] TRIGGERING DUT a: 10, b: 15
+# UVM_INFO add_gen.sv(16) @ 60: uvm_test_top.en.agt.seqr@@gen [GEN] [PACKET] : 8 of 10
+# UVM_INFO add_mon.sv(26) @ 70: uvm_test_top.en.agt.mon [MON] DATA SENT TO SCB: a: 10, b: 15 and y: 25
+# UVM_INFO add_scb.sv(19) @ 70: uvm_test_top.en.scb [SCB] DATA RECEIVED FROM MONITOR: a: 10, b: 15, and y: 25
+# UVM_INFO add_scb.sv(22) @ 70: uvm_test_top.en.scb [SCB] TEST PASSED
+# UVM_INFO add_gen.sv(19) @ 70: uvm_test_top.en.agt.seqr@@gen [GEN] DATA SENT TO DRIVER a : 10, b : 0
+# UVM_INFO add_drv.sv(30) @ 70: uvm_test_top.en.agt.drv [DRV] TRIGGERING DUT a: 10, b: 0
+# UVM_INFO add_gen.sv(16) @ 70: uvm_test_top.en.agt.seqr@@gen [GEN] [PACKET] : 9 of 10
+# UVM_INFO add_mon.sv(26) @ 80: uvm_test_top.en.agt.mon [MON] DATA SENT TO SCB: a: 10, b: 0 and y: 10
+# UVM_INFO add_scb.sv(19) @ 80: uvm_test_top.en.scb [SCB] DATA RECEIVED FROM MONITOR: a: 10, b: 0, and y: 10
+# UVM_INFO add_scb.sv(22) @ 80: uvm_test_top.en.scb [SCB] TEST PASSED
+# UVM_INFO add_gen.sv(19) @ 80: uvm_test_top.en.agt.seqr@@gen [GEN] DATA SENT TO DRIVER a : 7, b : 2
+# UVM_INFO add_drv.sv(30) @ 80: uvm_test_top.en.agt.drv [DRV] TRIGGERING DUT a: 7, b: 2
+# UVM_INFO add_gen.sv(16) @ 80: uvm_test_top.en.agt.seqr@@gen [GEN] [PACKET] : 10 of 10
+# UVM_INFO add_mon.sv(26) @ 90: uvm_test_top.en.agt.mon [MON] DATA SENT TO SCB: a: 7, b: 2 and y: 9
+# UVM_INFO add_scb.sv(19) @ 90: uvm_test_top.en.scb [SCB] DATA RECEIVED FROM MONITOR: a: 7, b: 2, and y: 9
+# UVM_INFO add_scb.sv(22) @ 90: uvm_test_top.en.scb [SCB] TEST PASSED
+# UVM_INFO add_gen.sv(19) @ 90: uvm_test_top.en.agt.seqr@@gen [GEN] DATA SENT TO DRIVER a : 13, b : 4
+# UVM_INFO add_drv.sv(30) @ 90: uvm_test_top.en.agt.drv [DRV] TRIGGERING DUT a: 13, b: 4
+# UVM_INFO add_mon.sv(26) @ 100: uvm_test_top.en.agt.mon [MON] DATA SENT TO SCB: a: 13, b: 4 and y: 17
+# UVM_INFO add_scb.sv(19) @ 100: uvm_test_top.en.scb [SCB] DATA RECEIVED FROM MONITOR: a: 13, b: 4, and y: 17
+# UVM_INFO add_scb.sv(22) @ 100: uvm_test_top.en.scb [SCB] TEST PASSED
+# UVM_INFO add_mon.sv(26) @ 110: uvm_test_top.en.agt.mon [MON] DATA SENT TO SCB: a: 13, b: 4 and y: 17
+# UVM_INFO add_scb.sv(19) @ 110: uvm_test_top.en.scb [SCB] DATA RECEIVED FROM MONITOR: a: 13, b: 4, and y: 17
+# UVM_INFO add_scb.sv(22) @ 110: uvm_test_top.en.scb [SCB] TEST PASSED
+# UVM_INFO add_mon.sv(26) @ 120: uvm_test_top.en.agt.mon [MON] DATA SENT TO SCB: a: 13, b: 4 and y: 17
+# UVM_INFO add_scb.sv(19) @ 120: uvm_test_top.en.scb [SCB] DATA RECEIVED FROM MONITOR: a: 13, b: 4, and y: 17
+# UVM_INFO add_scb.sv(22) @ 120: uvm_test_top.en.scb [SCB] TEST PASSED
+# UVM_INFO add_mon.sv(26) @ 130: uvm_test_top.en.agt.mon [MON] DATA SENT TO SCB: a: 13, b: 4 and y: 17
+# UVM_INFO add_scb.sv(19) @ 130: uvm_test_top.en.scb [SCB] DATA RECEIVED FROM MONITOR: a: 13, b: 4, and y: 17
+# UVM_INFO add_scb.sv(22) @ 130: uvm_test_top.en.scb [SCB] TEST PASSED
+# UVM_INFO add_mon.sv(26) @ 140: uvm_test_top.en.agt.mon [MON] DATA SENT TO SCB: a: 13, b: 4 and y: 17
+# UVM_INFO add_scb.sv(19) @ 140: uvm_test_top.en.scb [SCB] DATA RECEIVED FROM MONITOR: a: 13, b: 4, and y: 17
+# UVM_INFO add_scb.sv(22) @ 140: uvm_test_top.en.scb [SCB] TEST PASSED
+# UVM_INFO verilog_src/uvm-1.1d/src/base/uvm_objection.svh(1267) @ 140: reporter [TEST_DONE] 'run' phase is ready to proceed to the 'extract' phase
+# 
+# --- UVM Report Summary ---
+# 
+# ** Report counts by severity
+# UVM_INFO :   76
+# UVM_WARNING :    0
+# UVM_ERROR :    0
+# UVM_FATAL :    0
+# ** Report counts by id
+# [DRV]    10
+# [GEN]    20
+# [MON]    14
+# [Questa UVM]     2
+# [RNTST]     1
+# [SCB]    28
+# [TEST_DONE]     1
+# ** Note: $finish    : /home/particle/edabundle/questa/questasim/linux_x86_64/../verilog_src/uvm-1.1d/src/base/uvm_root.svh(430)
+#    Time: 140 ns  Iteration: 54  Instance: /add_tb
+# 1
+# Break in Task uvm_pkg/uvm_root::run_test at /home/particle/edabundle/questa/questasim/linux_x86_64/../verilog_src/uvm-1.1d/src/base/uvm_root.svh line 430
+# End time: 01:55:04 on Mar 06,2023, Elapsed time: 0:00:12
+# Errors: 0, Warnings: 0

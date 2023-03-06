@@ -1,0 +1,153 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/particle/Desktop/uvm_casestudies/comb_adder
+T_opt
+!s110 1678047667
+VWck@4B;Whz?@^V7YA[mWL0
+04 6 4 work add_tb fast 0
+=1-000ae431a4f1-6404f9b2-7f6bc-15a0
+o-quiet -auto_acc_if_foreign -work work
+Z1 tCvgOpt 0
+n@_opt
+OL;O;10.7c;67
+R0
+vadd
+Z2 DXx6 sv_std 3 std 0 22 d=_JfHTnXCN[H5FjiaJJc0
+Z3 !s110 1678047891
+!i10b 1
+!s100 e]Ga:96l^_58O8deJI7U_3
+IQ^F^2E=37c3cQ3e0AE>b<3
+Z4 VDg1SIo80bB@j0V0VzS_@n1
+Z5 !s105 top_sv_unit
+S1
+R0
+w1678014339
+8add.sv
+Fadd.sv
+L0 1
+Z6 OL;L;10.7c;67
+r1
+!s85 0
+31
+Z7 !s108 1678047891.000000
+!s107 add_test.sv|add_env.sv|add_scb.sv|add_agt.sv|add_mon.sv|add_drv.sv|add_gen.sv|add_tr.sv|add.sv|add_if.sv|/home/particle/edabundle/questa/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_deprecated_defines.svh|/home/particle/edabundle/questa/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_reg_defines.svh|/home/particle/edabundle/questa/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_callback_defines.svh|/home/particle/edabundle/questa/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_sequence_defines.svh|/home/particle/edabundle/questa/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/tlm1/uvm_tlm_imps.svh|/home/particle/edabundle/questa/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_tlm_defines.svh|/home/particle/edabundle/questa/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_printer_defines.svh|/home/particle/edabundle/questa/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_object_defines.svh|/home/particle/edabundle/questa/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_phase_defines.svh|/home/particle/edabundle/questa/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_message_defines.svh|/home/particle/edabundle/questa/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_version_defines.svh|/home/particle/edabundle/questa/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/uvm_macros.svh|top.sv|
+Z8 !s90 -reportprogress|300|top.sv|
+!i113 0
+Z9 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+Yadd_if
+R2
+R3
+!i10b 1
+!s100 ?hk`^Q:mS?Q;QzR5bbEQZ2
+IQbYiDHd?f0k6@F2Y;_f[m1
+R4
+R5
+S1
+R0
+w1675676964
+8add_if.sv
+Fadd_if.sv
+L0 1
+R6
+r1
+!s85 0
+31
+R7
+Z10 !s107 add_test.sv|add_env.sv|add_scb.sv|add_agt.sv|add_mon.sv|add_drv.sv|add_gen.sv|add_tr.sv|add.sv|add_if.sv|/home/particle/edabundle/questa/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_deprecated_defines.svh|/home/particle/edabundle/questa/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_reg_defines.svh|/home/particle/edabundle/questa/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_callback_defines.svh|/home/particle/edabundle/questa/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_sequence_defines.svh|/home/particle/edabundle/questa/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/tlm1/uvm_tlm_imps.svh|/home/particle/edabundle/questa/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_tlm_defines.svh|/home/particle/edabundle/questa/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_printer_defines.svh|/home/particle/edabundle/questa/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_object_defines.svh|/home/particle/edabundle/questa/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_phase_defines.svh|/home/particle/edabundle/questa/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_message_defines.svh|/home/particle/edabundle/questa/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/macros/uvm_version_defines.svh|/home/particle/edabundle/questa/questasim/uvm-1.1d/../verilog_src/uvm-1.1d/src/uvm_macros.svh|top.sv|
+R8
+!i113 0
+R9
+R1
+vadd_tb
+R2
+Z11 DXx6 mtiUvm 7 uvm_pkg 0 22 3zPkj@YUcM=M^m3zCLh<H1
+Z12 DXx4 work 14 my_seq_library 0 22 OgJCjWEX_mc6TC9See@3L2
+DXx4 work 6 my_pkg 0 22 3X@88C>4Qnn6bmTeNI03>0
+Z13 !s110 1678047892
+!i10b 1
+!s100 f6;4HmJbb^BAZ97[e`R_G3
+IZ9SAW<=UzP_ET2836<;^n1
+R4
+R5
+S1
+R0
+Z14 w1678015123
+Z15 8top.sv
+Z16 Ftop.sv
+L0 23
+R6
+r1
+!s85 0
+31
+R7
+R10
+R8
+!i113 0
+R9
+R1
+Xmy_pkg
+!s115 add_if
+R2
+R11
+R12
+R13
+!i10b 1
+!s100 dJJ:zKDCGc2k6l79W5X>P2
+I3X@88C>4Qnn6bmTeNI03>0
+V3X@88C>4Qnn6bmTeNI03>0
+S1
+R0
+w1678047600
+R15
+R16
+Fadd_drv.sv
+Fadd_mon.sv
+Fadd_agt.sv
+Fadd_scb.sv
+Fadd_env.sv
+Fadd_test.sv
+L0 12
+R6
+r1
+!s85 0
+31
+R7
+R10
+R8
+!i113 0
+R9
+R1
+Xmy_seq_library
+R2
+R11
+R13
+!i10b 1
+!s100 eH]?Q7Zo7:]GnT?=U9d4^3
+IOgJCjWEX_mc6TC9See@3L2
+VOgJCjWEX_mc6TC9See@3L2
+S1
+R0
+R14
+R15
+R16
+Fadd_tr.sv
+Fadd_gen.sv
+L0 6
+R6
+r1
+!s85 0
+31
+R7
+R10
+R8
+!i113 0
+R9
+R1
